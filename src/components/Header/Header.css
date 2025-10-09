@@ -1,1 +1,120 @@
 
+.header {
+    margin: var(--spacing-base);
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--spacing-base) var(--spacing-xl);
+    background: var(--color-background);
+    border-radius: 50px;
+}
+
+.header-nav {
+    flex-basis: 50%;
+}
+
+.header-nav ul {
+    display: flex;
+    gap: var(--spacing-lg);
+
+}
+
+.header-logo {
+    font-size: var(--text-lg);
+    font-weight: var(--text-medium);
+    flex-basis: 25%;
+}
+
+.header-actions {
+  flex-basis: 25%;
+}
+
+
+.telegram-header-button {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    font-size: var(--text-sm);
+    font-weight: var(--text-medium);
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    border: 1pz solid var(--color-primary);
+    padding: var(--spacing-base);
+    margin-left: auto;
+    border-radius: 25px;
+    transition: all 0.3s ease-in-out;
+}
+
+.telegram-header-button:hover {
+    background-color: rgb(38, 14, 60);
+    cursor: pointer;
+}
+
+.menu-header-button {
+    display: none;
+}
+
+@media(max-width: 960px) {
+  .header-nav,
+  .telegram-header-button
+  {
+    display: none;
+  }
+
+  .menu-header-button {
+    display: flex;
+    padding: var(--spacing-sm);
+    background-color: transparent;
+    border: none;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .menu-header-button:hover {
+    cursor: pointer;
+    border: 1px solid rgb(48, 30, 124);
+    border-radius: 5px;
+  }
+
+  .header-logo, 
+  .header-actions {
+    flex-basis: initial;
+  }
+}
+
+/* Mobile menu */
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: var(--color-background);
+    width: 100vw;
+    height: 100vh;
+    z-index: 100;
+}
+
+.mobile-menu__content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: var(--spacing-lg) var(--spacing-base);
+}
+
+.mobile-nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-2xl);
+    font-weight: var(--font-medium);
+    font-size: var(--text-lg);
+    text-align: center;
+    padding: var(--spacing-3xl) 0;
+    margin: 0;
+}
+
+.mobile-menu .close-button {
+    display: inline-flex;
+    margin-left: auto;
+    border: none;
+}

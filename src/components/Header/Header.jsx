@@ -48,7 +48,7 @@ const [showMenu, setShowMenu] = useState(false);
      </ul>
     </nav>
     <div className='header-actions'>
-     <button className='telegram-header-button'>
+     <button className='telegram-header-button button button--primary'>
       Написать в Telegram{' '}
       <svg
        width='16'

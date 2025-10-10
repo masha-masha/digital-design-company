@@ -1,4 +1,5 @@
-import Header from "./components/Header/Header"
+import Header from "./components/Header/Header";
+import HeroSection from "./components/HeroSection/HeroSection";
 
 function App() {
 
@@ -6,6 +7,9 @@ function App() {
   return (
     <>
     <Header/>
+    <main>
+    <HeroSection/>
+    </main>
     </>
   )
 }

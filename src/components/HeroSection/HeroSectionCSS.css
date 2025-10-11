@@ -1,6 +1,6 @@
 .hero-section {
     color: var(--color-white);
-    padding: var(--spacing-4xl) 0;
+    padding: var(--spacing-4xl) var(--spacing-base);
 }
 
 .hero-section__content {
@@ -27,5 +27,21 @@
 
 .hero-section__actions {
     display: flex;
-    gap: 16px;
+    align-items: center;
+    gap: var(--spacing-base);
+}
+
+@media (max-width: 670px) {
+    .hero-section {
+        padding: var(--spacing-lg) var(--spacing-base);
+    }
+
+    .hero-section__content {
+        padding: var(--spacing-4xl) var(--spacing-lg);
+    }
+
+    .hero-section h1 {
+        font-size: var(--text-2xl);
+        line-height: 40px;
+    }
 }

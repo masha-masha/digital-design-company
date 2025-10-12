@@ -11,11 +11,30 @@
 .companies-list {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: var(--spacing-lg);
 }
 
 .companies-item {
     display: flex;
-    justify-content: center;
     align-items: center;
     gap: var(--spacing-base);
+}
+
+@media (max-width: 890px) {
+    .companies-list {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 670px) {
+    .companies {
+        padding: var(--spacing-lg) var(--spacing-base);
+    }
+
+    .companies-list {
+        flex-direction: column;
+        width: max-content;
+        margin: 0 auto;
+    }
 }

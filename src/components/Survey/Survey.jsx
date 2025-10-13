@@ -17,9 +17,7 @@ const Survey = () => {
         <button className="button">Узнать подробнее</button>
      </div>
     </div>
-    <div>
-        <img src="/images/survey.png" alt="survey image" />
-    </div>
+       <img className= "survey-image" src="/images/survey.png" alt="survey image" />
    </div>
   </div>
  );

@@ -31,3 +31,30 @@
     border-radius: 24px;
     object-fit: cover;
 }
+
+@media (max-width: 890px) {
+    .survey {
+        padding: var(--spacing-lg) var(--spacing-base);
+    }
+
+    .survey-content {
+        flex-direction: column;
+    }
+
+    .survey-title, .survey-description {
+        text-align: center;
+    }
+
+    .survey-title {
+        font-size: var(--text-2xl);
+        line-height: 40px;
+    }
+
+    .survey-actions {
+        justify-content: center;
+    }
+
+    .survey-image {
+        max-width: 100%;
+    }
+}

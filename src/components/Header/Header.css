@@ -37,7 +37,9 @@
   flex-basis: 25%;
 }
 
-
+.header-actions button {
+  margin-left: auto;
+}
 
 .menu-header-button {
   display: none;

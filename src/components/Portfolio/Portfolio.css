@@ -57,4 +57,20 @@
     .portfolio-list {
         flex-direction: column;
     }
+
+    .portfolio-title,
+    .portfolio-description {
+      text-align: center;
+    }
+}
+
+@media (max-width: 670px) {
+    .portfolio {
+        padding: var(--spacing-lg) var(--spacing-base);
+    }
+
+    .portfolio-subtitle {
+        font-size: var(--text-2xl);
+        line-height: 40px;
+    }
 }

@@ -3,7 +3,7 @@ import "./ProjectDiscussion.css";
 const ProjectDiscussion = () => {
  return (
   <div className="project-discussion">
-   <div className=" project-discussion__content container">
+   <div className=" project-discussion__content">
     <div className="project-discussion__title">Давайте начнем работу</div>
     <div className="project-discussion__subtitle">
      Расскажите нам о своем проекте

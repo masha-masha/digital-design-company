@@ -2,9 +2,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url('images/project-discussion-background.png');
+    background-image: url('../../assets/images/project-discussion-background.png');
     background-size: cover;
-    background-repeat: no-repeat;
+    background-position: center; 
     padding: 140px var(--spacing-base);
 }
 

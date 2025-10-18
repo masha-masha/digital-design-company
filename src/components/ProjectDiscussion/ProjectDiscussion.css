@@ -42,3 +42,22 @@
     justify-content: center;
     gap: var(--spacing-base);
 }
+
+@media (max-width: 670px) {
+    .project-discussion {
+        padding: var(--spacing-4xl) var(--spacing-base);
+    }
+
+    .project-discussion__content {
+        padding: var(--spacing-lg);
+    }
+
+    .project-discussion__subtitle {
+        font-size: var(--text-lg);
+        line-height: 23px;
+    }
+
+    .project-discussion__actions {
+        flex-direction: column;
+    }
+}

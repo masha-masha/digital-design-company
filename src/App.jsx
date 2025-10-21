@@ -6,6 +6,7 @@ import Survey from "./components/Survey/Survey";
 import Price from "./components/Price/Price";
 import Portfolio from "./components/Portfolio/Portfolio";
 import ProjectDiscussion from "./components/ProjectDiscussion/ProjectDiscussion";
+import Footer from "./components/Footer/Footer";
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
     <Portfolio/>
     <ProjectDiscussion/>
     </main>
+    <Footer/>
     </>
   )
 }

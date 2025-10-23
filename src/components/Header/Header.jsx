@@ -1,6 +1,7 @@
 import "./Header.css";
 import MobileNav from "./MobileNav";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
  const [showMenu, setShowMenu] = useState(false);
@@ -28,22 +29,30 @@ const Header = () => {
    </div>
    <div className="header-content container ">
     <div className="header-logo">FlexFlow</div>
-    <nav className="header-nav">
-     <ul>
-      <li>
-       <a href="#">Главная</a>
-      </li>
-      <li>
-       <a href="#">Цены</a>
-      </li>
-      <li>
-       <a href="#">Блог</a>
-      </li>
-      <li>
-       <a href="#">О компании</a>
-      </li>
-     </ul>
-    </nav>
+     <nav className="header-nav">
+          <ul>
+            <li>
+              <Link to="/">
+                Главная
+              </Link>
+            </li>
+            <li>
+              <Link to="/price">
+                Цены
+              </Link>
+            </li>
+            <li>
+              <Link to="/blog">
+                Блог
+              </Link>
+            </li>
+            <li>
+              <Link to="/about">
+                О компании
+              </Link>
+            </li>
+          </ul>
+        </nav>
     <div className="header-actions">
      <button className="telegram-header-button button button--primary">
       Написать в Telegram{" "}

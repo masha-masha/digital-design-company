@@ -1,31 +1,30 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/Header/Header";
-import HeroSection from "./components/HeroSection/HeroSection";
-import Companies from "./components/Companies/Companies";
-import Services from "./components/Services/Services";
-import Survey from "./components/Survey/Survey";
-import Price from "./components/Price/Price";
-import Portfolio from "./components/Portfolio/Portfolio";
-import ProjectDiscussion from "./components/ProjectDiscussion/ProjectDiscussion";
 import Footer from "./components/Footer/Footer";
+import MainPage from "./pages/MainPage";
+import PricePage from "./pages/PricePage";
+import BlogPage from "./pages/BlogPage";
+import AboutCompanyPage from "./pages/AboutCompanyPage";
+import NotFoundPage from "./pages/NotFoundPage";
 
 function App() {
-
-
-  return (
-    <>
-    <Header/>
+ return (
+  <>
+   <Router>
+    <Header />
     <main>
-    <HeroSection/>
-    <Companies/>
-    <Services/>
-    <Survey/>
-    <Price/>
-    <Portfolio/>
-    <ProjectDiscussion/>
+     <Routes>
+      <Route path="/" element={<MainPage />} />
+      <Route path="/price" element={<PricePage />} />
+      <Route path="/blog" element={<BlogPage />} />
+      <Route path="/about" element={<AboutCompanyPage />} />
+      <Route path="*" element={<NotFoundPage />} />
+     </Routes>
     </main>
-    <Footer/>
-    </>
-  )
+    <Footer />
+   </Router>
+  </>
+ );
 }
 
-export default App
+export default App;

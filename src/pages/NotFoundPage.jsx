@@ -1,8 +1,10 @@
-import React from 'react'
+import Content from "../components/NotFoundPageComponent/Content/Content"
 
 const NotFoundPage = () => {
   return (
-    <div>NotFoundPage</div>
+    <div>
+        <Content/>
+    </div>
   )
 }
 

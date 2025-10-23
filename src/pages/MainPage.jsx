@@ -1,10 +1,10 @@
-import HeroSection from "../components/HeroSection/HeroSection";
-import Companies from "../components/Companies/Companies";
-import Services from "../components/Services/Services";
-import Survey from "../components/Survey/Survey";
-import Price from "../components/Price/Price";
-import Portfolio from "../components/Portfolio/Portfolio";
-import ProjectDiscussion from "../components/ProjectDiscussion/ProjectDiscussion";
+import HeroSection from "../components/MainPageComponents/HeroSection/HeroSection";
+import Companies from "../components/MainPageComponents/Companies/Companies";
+import Services from "../components/MainPageComponents/Services/Services";
+import Survey from "../components/MainPageComponents/Survey/Survey";
+import Price from "../components/MainPageComponents/Price/Price";
+import Portfolio from "../components/MainPageComponents/Portfolio/Portfolio";
+import ProjectDiscussion from "../components/MainPageComponents/ProjectDiscussion/ProjectDiscussion";
 
 const MainPage = () => {
   return (

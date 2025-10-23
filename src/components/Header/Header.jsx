@@ -6,6 +6,8 @@ import { Link } from "react-router-dom";
 const Header = () => {
  const [showMenu, setShowMenu] = useState(false);
 
+ const closeMenu = () => setShowMenu(false);
+
  return (
   <header className="header">
    <div className={`mobile-menu ${showMenu ? "open" : ""}`}>
@@ -24,7 +26,7 @@ const Header = () => {
        />
       </svg>
      </button>
-     <MobileNav />
+     <MobileNav closeMenu={closeMenu} />
     </div>
    </div>
    <div className="header-content container ">

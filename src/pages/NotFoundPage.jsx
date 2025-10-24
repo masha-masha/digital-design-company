@@ -1,4 +1,4 @@
-import Content from "../components/NotFoundPageComponent/Content/Content"
+import Content from "../components/NotFoundPageComponents/Content/Content"
 
 const NotFoundPage = () => {
   return (

@@ -1,5 +1,5 @@
 import "./MainPricePage.css";
-import LiSVG from "./LiSVG";
+import { LiSVGWhite, LiSVGPurple } from "./LiSVG";
 
 const MainPricePage = () => {
  return (
@@ -7,7 +7,7 @@ const MainPricePage = () => {
    <li className="disign">
     <h3>Дизайн</h3>
     <p className="price-page-information">
-     <span>₽150.000</span>/по частям
+     <span>₽150.000</span> /по частям
     </p>
     <p className="price-page-description">
      Идеально для малых бизнесов и стартапов, которые хотят создать свой
@@ -20,31 +20,31 @@ const MainPricePage = () => {
     </div>
     <ul className="what-will-you-get-list">
      <li>
-      <LiSVG />
+      <LiSVGPurple />
       <p>Логотип и фирменный стиль</p>
      </li>
      <li>
-      <LiSVG />
+      <LiSVGPurple />
       <p>Один концепт дизайна</p>
      </li>
      <li>
-      <LiSVG />
+      <LiSVGPurple />
       <p>Дизайн для 10 страниц</p>
      </li>
      <li>
-      <LiSVG />
+      <LiSVGPurple />
       <p>Анимации и интерактивные элементы</p>
      </li>
      <li>
-      <LiSVG />
+      <LiSVGPurple />
       <p>Правки до финального утверждения</p>
      </li>
     </ul>
    </li>
-   <li className="mobile application">
+   <li className="mobile-application">
     <h3>Мобильное приложение</h3>
     <p className="price-page-information">
-     <span>₽700.000</span>/по частям
+     <span>₽700.000</span> /по частям
     </p>
     <p className="price-page-description">
      Подходит для проектов с высокими требованиями, где необходимо создать
@@ -57,31 +57,31 @@ const MainPricePage = () => {
     </div>
     <ul className="what-will-you-get-list">
      <li>
-      <LiSVG />
+      <LiSVGWhite />
       <p>Мобильное приложение для iOS и Android</p>
      </li>
      <li>
-      <LiSVG />
+      <LiSVGWhite />
       <p>Интеграция с внешними сервисами и API</p>
      </li>
      <li>
-      <LiSVG />
+      <LiSVGWhite />
       <p>Анимации и оригинальный дизайн</p>
      </li>
      <li>
-      <LiSVG />
+      <LiSVGWhite />
       <p>Поддержка в течение 3 месяцев</p>
      </li>
      <li>
-      <LiSVG />
+      <LiSVGWhite />
       <p>Проектирование UX/UI</p>
      </li>
      <li>
-      <LiSVG />
+      <LiSVGWhite />
       <p>Тестирование</p>
      </li>
      <li>
-      <LiSVG />
+      <LiSVGWhite />
       <p>Публикация в магазины приложений</p>
      </li>
     </ul>
@@ -89,7 +89,7 @@ const MainPricePage = () => {
    <li className="website">
     <h3>Веб-сайт</h3>
     <p className="price-page-information">
-     <span>₽250.000</span>/по частям
+     <span>₽250.000</span> /по частям
     </p>
     <p className="price-page-description">
      Подходит для компаний, которым нужен многостраничный сайт, чтобы наглядно
@@ -102,27 +102,27 @@ const MainPricePage = () => {
     </div>
     <ul className="what-will-you-get-list">
      <li>
-      <LiSVG />
+      <LiSVGWhite />
       <p>Многостраничный сайт до 10 страниц</p>
      </li>
      <li>
-      <LiSVG />
+      <LiSVGWhite />
       <p>Уникальный дизайн</p>
      </li>
      <li>
-      <LiSVG />
+      <LiSVGWhite />
       <p>Интеграция социальных сетей</p>
      </li>
      <li>
-      <LiSVG />
+      <LiSVGWhite />
       <p>Поддержка в течение 3 месяцев</p>
      </li>
      <li>
-      <LiSVG />
+      <LiSVGWhite />
       <p>SEO-оптимизация</p>
      </li>
      <li>
-      <LiSVG />
+      <LiSVGWhite />
       <p>Интеграция CRM и других систем</p>
      </li>
     </ul>

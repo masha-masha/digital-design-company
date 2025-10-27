@@ -1,0 +1,66 @@
+.price-page-list {
+    display: flex;
+    gap: 16px;
+}
+
+.disign {
+    box-shadow: #D7D7D7;
+    padding: var(--spacing-xl);
+    border-radius: 24px;
+    box-shadow: 4px 4px 8px #D7D7D7;
+}
+
+.mobile-application {
+    background-color:var(--color-primary);
+    color: var(--color-white);
+    padding: var(--spacing-xl);
+    border-radius: 24px;
+
+}
+
+
+.website {
+    background-color: var(--color-text-dark);
+    color: var(--color-white);
+    padding: var(--spacing-xl);
+    border-radius: 24px;
+}
+
+.disign h3,
+.mobile-application h3,
+.website h3 {
+    padding-bottom: var(--spacing-base);
+    font-size: 20px;
+}
+
+.price-page-information {
+     padding-bottom: var(--spacing-base);
+}
+
+.price-page-information span {
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 40px;
+
+}
+
+.price-page-description {
+  padding-bottom: 24px;
+  font-size: 16px;
+}
+
+.price-page-subtitle-wrapper {
+    padding-bottom: 24px;
+}
+
+.what-will-you-get-list li {
+    display: flex;
+    gap: 8px;
+    padding-bottom: 16px;
+}
+
+@media (max-width: 670px) {
+    .price-page-list {
+        flex-direction: column;
+    }
+}

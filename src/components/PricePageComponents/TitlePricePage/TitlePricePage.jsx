@@ -2,7 +2,7 @@ import "./TitlePricePage.css";
 
 const TitlePricePage = () => {
  return (
-  <div>
+  <div className="main-title-price-page">
    <h1>Цены на услуги</h1>
    <p>
     Выберите подходящий вариант и свяжитесь с нами, мы проконсультируем и

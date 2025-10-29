@@ -1,4 +1,5 @@
 import "./Price.css";
+import { Button } from "../../Buttons/Buttons";
 
 const Price = () => {
  return (
@@ -17,7 +18,7 @@ const Price = () => {
       эффективности.
      </p>
      <div className="price-actions">
-      <button className="button">Посмотреть цены</button>
+      <Button name="Посмотреть цены"/>
      </div>
     </div>
    </div>

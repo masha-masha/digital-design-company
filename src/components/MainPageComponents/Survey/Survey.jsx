@@ -1,4 +1,5 @@
 import "./Survey.css";
+import { Button, ButtonPrimary } from "../../Buttons/Buttons";
 
 const Survey = () => {
  return (
@@ -13,8 +14,8 @@ const Survey = () => {
       адаптированные именно под вас.
      </p>
      <div className="survey-actions">
-        <button className="button button--primary">Пройти опрос</button>
-        <button className="button">Узнать подробнее</button>
+       <ButtonPrimary name="Пройти опрос"/>
+       <Button name="Узнать подробнее"/>
      </div>
     </div>
        <img className= "survey-image" src="/images/survey.png" alt="survey image" />

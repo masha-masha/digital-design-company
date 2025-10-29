@@ -1,4 +1,5 @@
 import "./ProjectDiscussion.css";
+import { Button, ButtonPrimary } from "../../Buttons/Buttons";
 
 const ProjectDiscussion = () => {
  return (
@@ -13,8 +14,8 @@ const ProjectDiscussion = () => {
      сотрудничества.
     </div>
     <div className="project-discussion__actions">
-        <button className="button">Как мы работаем</button>
-        <button className="button button--primary">Заполнить заявку</button>
+        <Button name="Как мы работаем"/>
+        <ButtonPrimary name="Заполнить заявку"/>
     </div>
    </div>
   </div>

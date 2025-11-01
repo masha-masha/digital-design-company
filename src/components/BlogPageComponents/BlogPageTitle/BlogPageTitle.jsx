@@ -8,7 +8,7 @@ const BlogPageTitle = () => {
     <div className="blog-page-title container">
       <h1>Наш блог</h1>
       <p>Здесь мы делимся полезными знаниями и новостями компании.</p>
-      <div className="buttons-container">
+      <div className="buttons-container container">
         {namesForButtons.map((name) => 
           <Button name={name}/>
         )}

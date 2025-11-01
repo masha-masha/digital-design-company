@@ -1,0 +1,23 @@
+.blog-page-title {
+    padding-top: var(--spacing-4xl);
+    text-align: center;
+}
+
+.blog-page-title h1 {
+   padding-bottom: 8px;
+   font-size: var(--text-3xl);
+   line-height: 48px;
+}
+
+.blog-page-title p {
+    color: var(--color-secondary);
+    padding-bottom: var(--spacing-lg);
+}
+
+.buttons-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    padding-bottom: 44px;
+}

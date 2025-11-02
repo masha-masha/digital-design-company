@@ -1,4 +1,4 @@
-import React from 'react'
+import "./BlogPageCard.css"
 
 const BlogPageCard = ({image, hashtags, title, description, date}) => {
   return (
@@ -9,7 +9,7 @@ const BlogPageCard = ({image, hashtags, title, description, date}) => {
        </div>
        <h4>{title}</h4>
        <p>{description}</p>
-       <span>{date}</span>
+       <span className="blog-page-card-date">{date}</span>
     </div>
   )
 }

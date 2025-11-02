@@ -38,7 +38,7 @@ const data = [
 
 const BlogPageMain = () => {
  return (
-  <div className="container">
+  <div className="blog-page-main container">
    {data.map(({ image, hashtags, title, description, date }) => (
     <BlogPageCard
      image={image}

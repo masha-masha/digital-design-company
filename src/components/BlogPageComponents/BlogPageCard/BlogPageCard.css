@@ -1,0 +1,30 @@
+.blog-page-card {
+ width: 510px;
+}
+
+.blog-page-card img {
+    padding-bottom: 16px;
+}
+
+.hashtags {
+    display: flex;
+    gap: 8px;
+    color: var(--color-primary);
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 16px;
+}
+
+.blog-page-card h4 {
+    padding-bottom: 16px;
+    font-size: 20px;
+}
+
+.blog-page-card-date {
+    color: var(--color-primary);
+}
+
+.blog-page-card p {
+    padding-bottom: 16px;
+}
+

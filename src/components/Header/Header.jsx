@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 
 const Header = () => {
+
  const [showMenu, setShowMenu] = useState(false);
 
  const closeMenu = () => setShowMenu(false);
@@ -56,7 +57,7 @@ const Header = () => {
           </ul>
         </nav>
     <div className="header-actions">
-     <button className="telegram-header-button button button--primary">
+     <button className="telegram-header-button ">
       Написать в Telegram{" "}
       <svg
        width="16"

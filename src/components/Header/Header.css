@@ -45,6 +45,21 @@
   display: none;
 }
 
+
+.telegram-header-button {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  font-size: var(--text-sm);
+  font-weight: var(--text-medium);
+  background-color: var(--color-white);
+  color: var(--color-primary);
+  border: 1px solid var(--color-primary);
+  padding: var(--spacing-base);
+  border-radius: 25px;
+  transition: all 0.3s ease-in-out;
+}
+
 @media(max-width: 960px) {
 
   .header-nav,

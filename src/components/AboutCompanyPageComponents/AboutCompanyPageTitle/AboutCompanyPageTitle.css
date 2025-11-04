@@ -1,0 +1,15 @@
+.about-company-page-title {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+.about-company-page-title h1 {
+    font-size: 44px;
+    font-weight: 500;
+    padding-bottom: 16px;
+}
+
+.about-company-page-title p {
+    color: var(--color-secondary);
+    line-height: 24px;
+}

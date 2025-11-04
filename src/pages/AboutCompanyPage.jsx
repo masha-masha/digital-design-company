@@ -1,8 +1,12 @@
-import React from 'react'
+import AboutCompanyPageTitle from "../components/AboutCompanyPageComponents/AboutCompanyPageTitle/AboutCompanyPageTitle";
+import AboutCompanyPageMain from "../components/AboutCompanyPageComponents/AboutCompanyPageMain/AboutCompanyPageMain";
 
 const AboutCompanyPage = () => {
   return (
-    <div>AboutPage</div>
+    <div className="container">
+      <AboutCompanyPageTitle/>
+      <AboutCompanyPageMain/>
+    </div>
   )
 }
 

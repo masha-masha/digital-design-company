@@ -1,0 +1,35 @@
+.about-company-page-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding-bottom: 60px;
+}
+
+.about-company-description {
+   padding-bottom: 24px;
+   font-size: 16px;
+   width: 456px;
+}
+
+.company-facts-cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.about-company-card {
+    padding-top: 24px;
+    border: 2px solid var(--color-primary);
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+.card-title {
+    font-size: 24px;
+}
+
+.card-description {
+    width: 218px;
+    padding-bottom: 48px;
+}

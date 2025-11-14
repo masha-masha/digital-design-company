@@ -1,10 +1,13 @@
 import "./Footer.css";
 
 const Footer = () => {
+    
+ const currentYear = new Date().getFullYear();
+
  return (
   <div className="footer">
    <div className="footer-content container">
-    <p>© 2010-2024 «FlexFlow»</p>
+    <p>© 2010 - {currentYear} «FlexFlow»</p>
     <ul>
      <li>
       <a href="#">

@@ -73,5 +73,6 @@
 @media (max-width: 670px) {
     .price-page-list {
         flex-direction: column;
+        padding: 10px;
     }
 }

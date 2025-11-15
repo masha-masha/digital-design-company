@@ -33,3 +33,15 @@
     width: 218px;
     padding-bottom: 48px;
 }
+
+@media (max-width: 670px) {
+   .about-company-page-content {
+    flex-direction: column;
+    padding-left: 16px;
+    padding-right: 16px;
+   }
+
+   .about-company-card {
+    width: 100%;
+   }
+}

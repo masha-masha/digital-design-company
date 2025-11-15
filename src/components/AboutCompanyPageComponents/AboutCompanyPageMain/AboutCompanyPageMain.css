@@ -44,4 +44,10 @@
    .about-company-card {
     width: 100%;
    }
+
+   .about-company-description {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+   }
 }

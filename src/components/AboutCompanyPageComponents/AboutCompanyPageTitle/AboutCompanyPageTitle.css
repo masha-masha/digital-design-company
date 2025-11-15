@@ -12,4 +12,5 @@
 .about-company-page-title p {
     color: var(--color-secondary);
     line-height: 24px;
+    padding: 10px;
 }

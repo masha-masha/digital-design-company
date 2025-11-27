@@ -48,7 +48,8 @@ const MainPricePage = () => {
     </p>
     <p className="price-page-description">
      Подходит для проектов с высокими требованиями, где необходимо создать
-     уникальное приложение с персонализированными функциями.
+     уникальное приложение с персонализированными 
+     функциями.
     </p>
     <div className="price-page-subtitle-wrapper">
      <div className="price-page-subtitle-line"></div>

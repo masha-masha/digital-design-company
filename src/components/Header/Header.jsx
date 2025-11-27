@@ -1,7 +1,7 @@
 import "./Header.css";
 import MobileNav from "./MobileNav";
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
 
@@ -35,24 +35,24 @@ const Header = () => {
      <nav className="header-nav">
           <ul>
             <li>
-              <Link to="/">
+              <NavLink to="/" end className={({ isActive}) => isActive ? "header-nav-li-active" : ""}>
                 Главная
-              </Link>
+              </NavLink>
             </li>
             <li>
-              <Link to="/price">
+              <NavLink to="/price" className={({ isActive}) => isActive ? "header-nav-li-active" : ""} >
                 Цены
-              </Link>
+              </NavLink>
             </li>
             <li>
-              <Link to="/blog">
+              <NavLink to="/blog" className={({ isActive}) => isActive ? "header-nav-li-active" : ""}>
                 Блог
-              </Link>
+              </NavLink>
             </li>
             <li>
-              <Link to="/about">
+              <NavLink to="/about" className={({ isActive}) => isActive ? "header-nav-li-active" : ""}>
                 О компании
-              </Link>
+              </NavLink>
             </li>
           </ul>
         </nav>
